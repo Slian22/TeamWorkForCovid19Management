@@ -1,0 +1,12 @@
+bin\Debug\Employee.mdf
+bin\Debug\Employee_log.ldf
+bin\Debug\BankEmployee.exe.config
+bin\Debug\BankEmployee.exe
+bin\Debug\BankEmployee.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BankEmployee.Properties.Resources.resources
+obj\Debug\BankEmployee.csproj.GenerateResource.Cache
+obj\Debug\BankEmployee.exe
+obj\Debug\BankEmployee.pdb
+obj\Debug\BankEmployee.FormMain.resources
+obj\Debug\BankEmployee.FormEmployee.resources

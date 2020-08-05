@@ -46,16 +46,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="ChoseTheUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ChoseTheUser.Designer.cs">
+      <DependentUpon>ChoseTheUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerLogin.Designer.cs">
+      <DependentUpon>ManagerLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerOperating.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerOperating.Designer.cs">
+      <DependentUpon>ManagerOperating.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ReporterLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporterLogin.Designer.cs">
+      <DependentUpon>ReporterLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportinformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportinformation.Designer.cs">
+      <DependentUpon>Reportinformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Viewallinformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viewallinformation.Designer.cs">
+      <DependentUpon>Viewallinformation.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ChoseTheUser.resx">
+      <DependentUpon>ChoseTheUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerLogin.resx">
+      <DependentUpon>ManagerLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerOperating.resx">
+      <DependentUpon>ManagerOperating.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +102,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ReporterLogin.resx">
+      <DependentUpon>ReporterLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportinformation.resx">
+      <DependentUpon>Reportinformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewallinformation.resx">
+      <DependentUpon>Viewallinformation.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

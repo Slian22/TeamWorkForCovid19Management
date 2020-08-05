@@ -1,0 +1,48 @@
+C:\Documents and Settings\Administrator\桌面\MenuBankCustoms\MenuBankCustoms\bin\Debug\MenuBankCustoms.exe
+C:\Documents and Settings\Administrator\桌面\MenuBankCustoms\MenuBankCustoms\bin\Debug\MenuBankCustoms.pdb
+C:\Documents and Settings\Administrator\桌面\MenuBankCustoms\MenuBankCustoms\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.exe
+C:\Documents and Settings\Administrator\桌面\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.pdb
+C:\Documents and Settings\Administrator\桌面\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.FormMain.resources
+F:\实验\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.exe
+F:\实验\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.pdb
+F:\实验\MenuBankCustoms\MenuBankCustoms\obj\Debug\ResolveAssemblyReference.cache
+F:\实验\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.FormMain.resources
+F:\实验\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.Properties.Resources.resources
+F:\实验\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.csproj.GenerateResource.Cache
+F:\实验\MenuBankCustoms\MenuBankCustoms\bin\Debug\MenuBankCustoms.exe
+F:\实验\MenuBankCustoms\MenuBankCustoms\bin\Debug\MenuBankCustoms.pdb
+F:\实验\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.Form1.resources
+F:\实验\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.Form2.resources
+F:\壁纸 图片 电影\电影\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.exe
+F:\壁纸 图片 电影\电影\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.pdb
+F:\壁纸 图片 电影\电影\MenuBankCustoms\MenuBankCustoms\bin\Debug\MenuBankCustoms.exe
+F:\壁纸 图片 电影\电影\MenuBankCustoms\MenuBankCustoms\bin\Debug\MenuBankCustoms.pdb
+F:\壁纸 图片 电影\电影\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.csprojResolveAssemblyReference.cache
+F:\壁纸 图片 电影\电影\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.Form1.resources
+F:\壁纸 图片 电影\电影\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.Form2.resources
+F:\壁纸 图片 电影\电影\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.FormMain.resources
+F:\壁纸 图片 电影\电影\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.Properties.Resources.resources
+F:\壁纸 图片 电影\电影\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.csproj.GenerateResource.Cache
+F:\VsProjects\Experiment 4\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.exe
+F:\VsProjects\Experiment 4\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.pdb
+F:\VsProjects\Experiment 4\MenuBankCustoms\MenuBankCustoms\bin\Debug\MenuBankCustoms.exe
+F:\VsProjects\Experiment 4\MenuBankCustoms\MenuBankCustoms\bin\Debug\MenuBankCustoms.pdb
+F:\VsProjects\Experiment 4\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.csprojResolveAssemblyReference.cache
+F:\VsProjects\Experiment 4\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.Form1.resources
+F:\VsProjects\Experiment 4\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.Form2.resources
+F:\VsProjects\Experiment 4\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.FormMain.resources
+F:\VsProjects\Experiment 4\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.Properties.Resources.resources
+F:\VsProjects\Experiment 4\MenuBankCustoms\MenuBankCustoms\obj\Debug\MenuBankCustoms.csproj.GenerateResource.Cache
+C:\Users\xiaoshu12138\Desktop\1\MenuBankCustoms\obj\Debug\MenuBankCustoms.exe
+C:\Users\xiaoshu12138\Desktop\1\MenuBankCustoms\obj\Debug\MenuBankCustoms.pdb
+C:\Users\xiaoshu12138\Desktop\1\MenuBankCustoms\bin\Debug\MenuBankCustoms.exe
+C:\Users\xiaoshu12138\Desktop\1\MenuBankCustoms\bin\Debug\MenuBankCustoms.pdb
+C:\Users\xiaoshu12138\Desktop\1\MenuBankCustoms\obj\Debug\MenuBankCustoms.csprojResolveAssemblyReference.cache
+C:\Users\xiaoshu12138\Desktop\1\MenuBankCustoms\obj\Debug\MenuBankCustoms.Form1.resources
+C:\Users\xiaoshu12138\Desktop\1\MenuBankCustoms\obj\Debug\MenuBankCustoms.Form2.resources
+C:\Users\xiaoshu12138\Desktop\1\MenuBankCustoms\obj\Debug\MenuBankCustoms.FormMain.resources
+C:\Users\xiaoshu12138\Desktop\1\MenuBankCustoms\obj\Debug\MenuBankCustoms.Properties.Resources.resources
+C:\Users\xiaoshu12138\Desktop\1\MenuBankCustoms\obj\Debug\MenuBankCustoms.csproj.GenerateResource.Cache
