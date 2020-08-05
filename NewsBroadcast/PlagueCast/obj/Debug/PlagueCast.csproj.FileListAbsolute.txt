@@ -1,0 +1,12 @@
+F:\COVID19\TeamWorkForCovid19Management\NewsBroadcast\PlagueCast\bin\Debug\PlagueCast.exe.config
+F:\COVID19\TeamWorkForCovid19Management\NewsBroadcast\PlagueCast\bin\Debug\PlagueCast.exe
+F:\COVID19\TeamWorkForCovid19Management\NewsBroadcast\PlagueCast\bin\Debug\PlagueCast.pdb
+F:\COVID19\TeamWorkForCovid19Management\NewsBroadcast\PlagueCast\obj\Debug\PlagueCast.csprojAssemblyReference.cache
+F:\COVID19\TeamWorkForCovid19Management\NewsBroadcast\PlagueCast\obj\Debug\PlagueCast.Form1.resources
+F:\COVID19\TeamWorkForCovid19Management\NewsBroadcast\PlagueCast\obj\Debug\PlagueCast.FrmNewsDialog.resources
+F:\COVID19\TeamWorkForCovid19Management\NewsBroadcast\PlagueCast\obj\Debug\PlagueCast.FrmNewsList.resources
+F:\COVID19\TeamWorkForCovid19Management\NewsBroadcast\PlagueCast\obj\Debug\PlagueCast.Properties.Resources.resources
+F:\COVID19\TeamWorkForCovid19Management\NewsBroadcast\PlagueCast\obj\Debug\PlagueCast.csproj.GenerateResource.cache
+F:\COVID19\TeamWorkForCovid19Management\NewsBroadcast\PlagueCast\obj\Debug\PlagueCast.csproj.CoreCompileInputs.cache
+F:\COVID19\TeamWorkForCovid19Management\NewsBroadcast\PlagueCast\obj\Debug\PlagueCast.exe
+F:\COVID19\TeamWorkForCovid19Management\NewsBroadcast\PlagueCast\obj\Debug\PlagueCast.pdb
