@@ -16,5 +16,46 @@ namespace CovidApp
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string username = comboBox1.Text;
+            string password = textBox1.Text;
+            if (!DBUtil.verify(username, password))
+            {
+                MessageBox.Show("密码错误！");
+                return;
+            }
+            else
+            {
+                Reportinformation R = new Reportinformation();
+                R.ShowDialog();
+                this.Close();
+                this.Dispose();
+            }
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ChoseTheUser C = new ChoseTheUser();
+            C.ShowDialog();
+            this.Close();
+            this.Dispose();
+        }
     }
 }

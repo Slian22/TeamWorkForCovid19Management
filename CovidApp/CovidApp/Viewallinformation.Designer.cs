@@ -33,11 +33,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -102,33 +102,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(163, 85);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 23);
-            this.comboBox1.TabIndex = 7;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("宋体", 16F);
-            this.label3.Location = new System.Drawing.Point(63, 81);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 27);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "省份";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(804, 57);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(207, 55);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "查看";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -146,6 +119,33 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(137, 23);
             this.comboBox2.TabIndex = 10;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(804, 57);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(207, 55);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "查看";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("宋体", 16F);
+            this.label3.Location = new System.Drawing.Point(63, 81);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(66, 27);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "省份";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(163, 85);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 23);
+            this.comboBox1.TabIndex = 7;
             // 
             // button2
             // 

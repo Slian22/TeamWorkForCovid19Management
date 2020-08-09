@@ -60,7 +60,7 @@ namespace experiment5
             }
             catch (Exception e)
             {
-
+                Console.WriteLine(e.Message);
             }
         }
 

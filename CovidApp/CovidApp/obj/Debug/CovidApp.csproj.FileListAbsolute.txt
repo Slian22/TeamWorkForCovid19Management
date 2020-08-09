@@ -1,0 +1,15 @@
+F:\COVID19\TeamWorkForCovid19Management\CovidApp\CovidApp\bin\Debug\CovidApp.exe.config
+F:\COVID19\TeamWorkForCovid19Management\CovidApp\CovidApp\bin\Debug\CovidApp.exe
+F:\COVID19\TeamWorkForCovid19Management\CovidApp\CovidApp\bin\Debug\CovidApp.pdb
+F:\COVID19\TeamWorkForCovid19Management\CovidApp\CovidApp\obj\Debug\CovidApp.csprojAssemblyReference.cache
+F:\COVID19\TeamWorkForCovid19Management\CovidApp\CovidApp\obj\Debug\CovidApp.ChoseTheUser.resources
+F:\COVID19\TeamWorkForCovid19Management\CovidApp\CovidApp\obj\Debug\CovidApp.ManagerLogin.resources
+F:\COVID19\TeamWorkForCovid19Management\CovidApp\CovidApp\obj\Debug\CovidApp.ManagerOperating.resources
+F:\COVID19\TeamWorkForCovid19Management\CovidApp\CovidApp\obj\Debug\CovidApp.Properties.Resources.resources
+F:\COVID19\TeamWorkForCovid19Management\CovidApp\CovidApp\obj\Debug\CovidApp.ReporterLogin.resources
+F:\COVID19\TeamWorkForCovid19Management\CovidApp\CovidApp\obj\Debug\CovidApp.Reportinformation.resources
+F:\COVID19\TeamWorkForCovid19Management\CovidApp\CovidApp\obj\Debug\CovidApp.Viewallinformation.resources
+F:\COVID19\TeamWorkForCovid19Management\CovidApp\CovidApp\obj\Debug\CovidApp.csproj.GenerateResource.cache
+F:\COVID19\TeamWorkForCovid19Management\CovidApp\CovidApp\obj\Debug\CovidApp.csproj.CoreCompileInputs.cache
+F:\COVID19\TeamWorkForCovid19Management\CovidApp\CovidApp\obj\Debug\CovidApp.exe
+F:\COVID19\TeamWorkForCovid19Management\CovidApp\CovidApp\obj\Debug\CovidApp.pdb

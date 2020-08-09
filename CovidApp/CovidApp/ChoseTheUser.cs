@@ -24,12 +24,20 @@ namespace CovidApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            ManagerLogin f = new ManagerLogin();
+            f.ShowDialog(this);
+            this.Close();
+            this.Dispose();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            ReporterLogin R = new ReporterLogin();
+            R.ShowDialog(this);
+            this.Close();
+            this.Dispose();
         }
     }
 }
