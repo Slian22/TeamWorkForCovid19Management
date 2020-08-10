@@ -62,24 +62,6 @@ namespace CovidApp
 
             }
         }
-
-
-        public static SortedList<string, int> queryGender()//统计性别
-        {
-            SortedList<string, int> result = new SortedList<string, int>();
-            string sql = "select 性别,count(*) from 信息表  GROUP BY 性别";
-            connection();
-            SqlCommand cmd = new SqlCommand(sql, conn);
-            SqlDataReader reader = cmd.ExecuteReader();
-
-            while (reader.Read())
-            {
-                result.Add(reader.GetString(0), reader.GetInt32(1));
-            }
-            close();
-            return result;
-        }
-
         public static LinkedList<string> queryOperator()//查看数据库中的用户
         {
             LinkedList<string> result = new LinkedList<string>();
@@ -95,8 +77,6 @@ namespace CovidApp
             close();
             return result;
         }
-
-
         public static bool query(string sql, string[] paras, out LinkedList<string[]> result)
         {
             string[] row = new string[12];
@@ -119,6 +99,13 @@ namespace CovidApp
                 row[2] = Convert.ToString(reader.GetString(2));
                 row[3] = Convert.ToString(reader.GetDateTime(3));
                 row[4] = Convert.ToString(reader.GetString(4));
+                row[5]= Convert.ToString(reader.GetString(5));
+                row[6] = Convert.ToString(reader.GetString(6));
+                row[7] = Convert.ToString(reader.GetString(7));
+                row[8] = Convert.ToString(reader.GetString(8));
+                row[9] = Convert.ToString(reader.GetString(9));
+                row[10] = Convert.ToString(reader.GetString(10));
+                row[11] = Convert.ToString(reader.GetString(11));
                 result.AddLast(row);
                 close();
                 return true;
