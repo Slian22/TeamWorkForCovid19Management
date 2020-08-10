@@ -243,8 +243,8 @@ namespace PlagueCast
             splashTimer.Enabled = false;
 
             notificationQueue.Add(new FrmNewsDialog("欢迎使用 疫情播报桌面小部件", "数据来自丁香园（爬虫)，每8分钟更新一次。\r\n点击详情打开丁香园页面", Program.url));
-            notificationQueue.Add(new FrmNewsDialog("提示：在标题栏左边图标右击有选项菜单","右击标题栏左边NEWS图标，可以打开选项菜单，可以设置通知，置顶，刷新以及退出。按住滚动字幕部分可以拖动", "https://github.com/ZYFDroid/PlagueInc-Style-News"));
-            notificationQueue.Add(new FrmNewsDialog("提示：单击新闻列表项目打开详情","单击新闻列表中的一项可以查看标题，内容和原始链接。", "https://github.com/ZYFDroid/PlagueInc-Style-News"));
+            notificationQueue.Add(new FrmNewsDialog("提示：在标题栏左边图标右击有选项菜单","右击标题栏左边NEWS图标，可以打开选项菜单，可以设置通知，置顶，刷新以及退出。按住滚动字幕部分可以拖动", "https://github.com/Slian22"));
+            notificationQueue.Add(new FrmNewsDialog("提示：单击新闻列表项目打开详情","单击新闻列表中的一项可以查看标题，内容和原始链接。", "https://github.com/Slian22"));
             raiseNotification();
         }
 
@@ -266,7 +266,7 @@ namespace PlagueCast
 
         private void 打开Github页面ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            notificationQueue.Add(new FrmNewsDialog("提示: 打开Github页面查看更新", "如果新闻持续不更新，或者显示奇怪的内容，请检测有没有版本更新。\r\n点击详情打开Github页面", "https://github.com/ZYFDroid/PlagueInc-Style-News"));
+            notificationQueue.Add(new FrmNewsDialog("提示: 查看更新", "如果新闻持续不更新，或者显示奇怪的内容，请检测有没有版本更新。\r\n点击详情打开Github页面", "https://github.com/Slian22"));
             raiseNotification();
         }
 
@@ -303,6 +303,16 @@ namespace PlagueCast
         {
             notificationQueue.Add(new FrmNewsDialog("提示: 使用疫情相关网址导航关注更多信息", "疫情信息导航旨在为大家提供一个便利而全面的疫情信息入口，整理了涵盖疫情信息的各个方面的网络通道，目前计划提供的信息入口有 实时疫情、防疫指南、物资救援、举报通道、在线义症、谣言鉴定、发热门诊、病患寻人（未上线）。近期将持续更新添加其他模块\r\n网址由 https://github.com/wertycn/nCoV 提供。单击详情打开", Program.navurl));
             raiseNotification();
+        }
+
+        private void ptListBegin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void conMarquee_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void dragger_MouseMove(object sender, MouseEventArgs e)

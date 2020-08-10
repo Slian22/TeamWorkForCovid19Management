@@ -36,30 +36,35 @@
             // 
             // lblTitle
             // 
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblTitle.Location = new System.Drawing.Point(142, 14);
+            this.lblTitle.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblTitle.Location = new System.Drawing.Point(189, 16);
+            this.lblTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(442, 26);
+            this.lblTitle.Size = new System.Drawing.Size(589, 30);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "label1";
+            this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
             // 
             // lblDetail
             // 
             this.lblDetail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDetail.Location = new System.Drawing.Point(142, 40);
+            this.lblDetail.Location = new System.Drawing.Point(189, 46);
+            this.lblDetail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDetail.Name = "lblDetail";
-            this.lblDetail.Size = new System.Drawing.Size(478, 84);
+            this.lblDetail.Size = new System.Drawing.Size(637, 97);
             this.lblDetail.TabIndex = 1;
             this.lblDetail.Text = "label2";
+            this.lblDetail.Click += new System.EventHandler(this.lblDetail_Click);
             // 
             // lblLink
             // 
             this.lblLink.AutoSize = true;
             this.lblLink.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblLink.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLink.Location = new System.Drawing.Point(590, 21);
+            this.lblLink.Location = new System.Drawing.Point(787, 24);
+            this.lblLink.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLink.Name = "lblLink";
-            this.lblLink.Size = new System.Drawing.Size(31, 13);
+            this.lblLink.Size = new System.Drawing.Size(36, 17);
             this.lblLink.TabIndex = 2;
             this.lblLink.Text = "详情";
             this.lblLink.Click += new System.EventHandler(this.lblLink_Click);
@@ -68,9 +73,10 @@
             // 
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnClose.Location = new System.Drawing.Point(586, 102);
+            this.btnClose.Location = new System.Drawing.Point(781, 118);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(55, 25);
+            this.btnClose.Size = new System.Drawing.Size(73, 29);
             this.btnClose.TabIndex = 3;
             this.btnClose.Text = "button1";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -78,17 +84,18 @@
             // 
             // FrmNewsDialog
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PlagueCast.Properties.Resources.bg_dialog;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(644, 133);
+            this.ClientSize = new System.Drawing.Size(859, 153);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.lblLink);
             this.Controls.Add(this.lblDetail);
             this.Controls.Add(this.lblTitle);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "FrmNewsDialog";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmNewsDialog";

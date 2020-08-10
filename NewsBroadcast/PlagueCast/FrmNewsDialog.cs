@@ -49,6 +49,16 @@ namespace PlagueCast
             Close();
         }
 
+        private void lblDetail_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTitle_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void FrmNewsDialog_Load(object sender, EventArgs e)
         {
             gdi = new GdiSystem(this);

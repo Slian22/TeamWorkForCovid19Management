@@ -300,6 +300,11 @@ namespace PlagueCast
             renderTimer.Enabled = this.Visible;
         }
 
+        private void tblLiskContainer_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void tblTaskContainer_MouseMove(object sender, MouseEventArgs e)
         {
             if (panelLeftDown)
