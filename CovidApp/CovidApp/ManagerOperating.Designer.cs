@@ -39,7 +39,6 @@
             this.label29 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
@@ -57,7 +56,7 @@
             this.label17 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -75,6 +74,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -141,11 +141,11 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.comboBox3);
             this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.label29);
             this.groupBox1.Controls.Add(this.textBox8);
             this.groupBox1.Controls.Add(this.label28);
-            this.groupBox1.Controls.Add(this.comboBox3);
             this.groupBox1.Controls.Add(this.label27);
             this.groupBox1.Controls.Add(this.label26);
             this.groupBox1.Controls.Add(this.textBox7);
@@ -163,7 +163,7 @@
             this.groupBox1.Controls.Add(this.label17);
             this.groupBox1.Controls.Add(this.textBox3);
             this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.comboBox);
+            this.groupBox1.Controls.Add(this.comboBox2);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label9);
@@ -228,17 +228,6 @@
             this.label28.Size = new System.Drawing.Size(89, 20);
             this.label28.TabIndex = 41;
             this.label28.Text = "联系方式";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.comboBox3.Location = new System.Drawing.Point(148, 460);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(176, 23);
-            this.comboBox3.TabIndex = 40;
-            this.comboBox3.UseWaitCursor = true;
-            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // label27
             // 
@@ -393,25 +382,25 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.AllowDrop = true;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.comboBox1.Location = new System.Drawing.Point(147, 74);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(176, 23);
             this.comboBox1.TabIndex = 22;
-            this.comboBox1.UseWaitCursor = true;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged_1);
             // 
-            // comboBox
+            // comboBox2
             // 
-            this.comboBox.FormattingEnabled = true;
-            this.comboBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.comboBox.Location = new System.Drawing.Point(148, 117);
-            this.comboBox.Name = "comboBox";
-            this.comboBox.Size = new System.Drawing.Size(176, 23);
-            this.comboBox.TabIndex = 21;
-            this.comboBox.UseWaitCursor = true;
-            this.comboBox.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.comboBox2.AllowDrop = true;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.comboBox2.Location = new System.Drawing.Point(148, 117);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(176, 23);
+            this.comboBox2.TabIndex = 21;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // label11
             // 
@@ -589,6 +578,15 @@
             this.dataGridView1.TabIndex = 29;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(146, 459);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(179, 23);
+            this.comboBox3.TabIndex = 45;
+            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged_1);
+            // 
             // ManagerOperating
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -639,7 +637,7 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox;
+        private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;
@@ -651,7 +649,6 @@
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.TextBox textBox7;
@@ -662,5 +659,6 @@
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.ComboBox comboBox3;
     }
 }

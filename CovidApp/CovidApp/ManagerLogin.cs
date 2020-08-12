@@ -67,6 +67,7 @@ namespace CovidApp
                 groupBox1.Enabled = true;
                 if (radioButton1.Checked)
                 {
+                    this.Hide();
                     ManagerOperating f = new ManagerOperating();
                     f.ShowDialog();
                     this.Close();

@@ -7,7 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Data;
+using System.Windows.Forms;
 namespace CovidApp
 {
     public partial class ManagerOperating : Form
@@ -53,7 +57,26 @@ namespace CovidApp
 
         private void ManagerOperating_Load(object sender, EventArgs e)
         {
-            string sql = "select * from units group by";
+            using (SqlConnection conn = new SqlConnection("server=DESKTOP-Q34EQV2;database=Covid_Management;Integrated Security=true;"))
+            {
+                conn.Open();
+                using (SqlCommand cmd = conn.CreateCommand())
+                {
+                    cmd.CommandText = "select proName from promary";
+
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+
+                        while (reader.Read())
+                        {
+                            string name = reader.GetString(reader.GetOrdinal("proName"));
+                            comboBox1.Items.Add(name);
+                        }
+                    }
+                }
+
+            }
+            string sql = "select * from units";
             DBUtil.BindDataGridView(dataGridView1, sql);
         }
 
@@ -63,7 +86,7 @@ namespace CovidApp
             {
                 textBox1.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
                 comboBox1.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
-                comboBox.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+                comboBox2.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
                 dateTimePicker1.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
                 textBox2.Text = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
                 textBox3.Text= dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
@@ -87,8 +110,9 @@ namespace CovidApp
 
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
-            comboBox3.Items.Add(0);
-            comboBox3.Items.Add(1);
+            comboBox3.Items.Clear();
+            comboBox3.Items.Add("0");
+            comboBox3.Items.Add("1");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -97,7 +121,7 @@ namespace CovidApp
             int flag = 1;
             paras[0] = textBox1.Text;
             paras[1] = comboBox1.Text;
-            paras[2] = comboBox.Text;
+            paras[2] = comboBox2.Text;
             paras[3] = dateTimePicker1.Text;
             paras[4] = textBox2.Text;
             paras[5] = textBox3.Text;
@@ -135,16 +159,38 @@ namespace CovidApp
                 else
                 {
 
-                    sql = "update units set province=@para1,city=@para2,time=@para3,unit_name=@para4,exist_confirm=@para5,exist_suspects=@para6,cum_death=@para7,cum_cured=@para8,new_confirm=@para9,verification=@para10,telephone=@para11 where operator_id=@para0";
+                    sql = "update units set province=@para1,city=@para2,time_rep=@para3,unit_name=@para4,exist_confirm=@para5,exist_suspects=@para6,cum_death=@para7,cum_cured=@para8,new_confirm=@para9,verification=@para10,telephone=@para11 where operator_id=@para0";
                 }
                 int count = DBUtil.update(sql, paras);
                 MessageBox.Show("更新 " + count + " 条记录成功!");
                 ManagerOperating_Load(sender, e);//窗体重载，显示数据更新效果
             }
-
-        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            comboBox2.Items.Clear();
+            using (SqlConnection conn = new SqlConnection("server=DESKTOP-Q34EQV2;database=Covid_Management;Integrated Security=true;"))
+            {
+                conn.Open();
+
+                using (SqlCommand cmd = conn.CreateCommand())
+                {
+                    cmd.CommandText = "select cityName from city,promary where city.proID=promary.proID and promary.proName=@pname";
+                    cmd.Parameters.Add(new SqlParameter("pname", comboBox1.SelectedItem));
+
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            string name = reader.GetString(reader.GetOrdinal("cityName"));
+                            comboBox2.Items.Add(name);
+                        }
+                    }
+                }
+            }
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
@@ -152,10 +198,7 @@ namespace CovidApp
 
         }
 
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -174,6 +217,11 @@ namespace CovidApp
             DBUtil.update(sql, paras);
             MessageBox.Show("记录删除成功！");
             ManagerOperating_Load(sender, e);
+        }
+
+        private void comboBox3_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+           
         }
     }
 }

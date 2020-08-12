@@ -31,15 +31,16 @@ namespace CovidApp
         {
             string username = comboBox1.Text;
             string password = textBox1.Text;
-            if (!DBUtil.verify(username, password))
+            if (!Reporter.verify(username, password))
             {
                 MessageBox.Show("密码错误！");
                 return;
             }
             else
             {
+                this.Hide();
                 Reportinformation R = new Reportinformation();
-                R.ShowDialog();
+                R.ShowDialog(this);
                 this.Close();
                 this.Dispose();
             }
@@ -52,10 +53,22 @@ namespace CovidApp
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Hide();
             ChoseTheUser C = new ChoseTheUser();
-            C.ShowDialog();
+            C.ShowDialog(this);
             this.Close();
             this.Dispose();
+        }
+
+        private void ReporterLogin_Load(object sender, EventArgs e)
+        {
+            textBox1.PasswordChar = '*';//输入文本不可见
+            string sql = "select userid from  [user]";
+            LinkedList<string> operators = Reporter.queryOperator();
+            foreach (string str in operators)
+            {
+                comboBox1.Items.Add(str);
+            }
         }
     }
 }

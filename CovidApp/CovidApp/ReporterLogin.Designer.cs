@@ -118,6 +118,7 @@
             this.Controls.Add(this.label1);
             this.Name = "ReporterLogin";
             this.Text = "ReporterLogin";
+            this.Load += new System.EventHandler(this.ReporterLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

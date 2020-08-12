@@ -48,7 +48,6 @@ namespace CovidApp
         {
             try
             {
-                //sql = "select 性别,count(*) from 信息表  GROUP BY 性别";
                 connection();
                 SqlDataAdapter sda = new SqlDataAdapter(sql, conn);//创建数据适配器对象
                 DataSet ds = new DataSet();//创建数据集对象
@@ -99,12 +98,12 @@ namespace CovidApp
                 row[2] = Convert.ToString(reader.GetString(2));
                 row[3] = Convert.ToString(reader.GetDateTime(3));
                 row[4] = Convert.ToString(reader.GetString(4));
-                row[5]= Convert.ToString(reader.GetString(5));
-                row[6] = Convert.ToString(reader.GetString(6));
-                row[7] = Convert.ToString(reader.GetString(7));
-                row[8] = Convert.ToString(reader.GetString(8));
-                row[9] = Convert.ToString(reader.GetString(9));
-                row[10] = Convert.ToString(reader.GetString(10));
+                row[5]= Convert.ToString(reader.GetInt32(5));
+                row[6] = Convert.ToString(reader.GetInt32(6));
+                row[7] = Convert.ToString(reader.GetInt32(7));
+                row[8] = Convert.ToString(reader.GetInt32(8));
+                row[9] = Convert.ToString(reader.GetInt32(9));
+                row[10] = Convert.ToString(reader.GetInt32(10));
                 row[11] = Convert.ToString(reader.GetString(11));
                 result.AddLast(row);
                 close();
