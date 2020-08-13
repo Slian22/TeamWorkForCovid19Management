@@ -1,5 +1,4 @@
-﻿namespace BankEmployee
-{
+﻿namespace BankEmployee {
 
 
     partial class EmployeeDataSet
