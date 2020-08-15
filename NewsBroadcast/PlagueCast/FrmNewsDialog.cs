@@ -38,7 +38,8 @@ namespace PlagueCast
             try
             {
                 Console.WriteLine(link);
-                Process.Start("explorer.exe",link);
+                Process.Start("iexplore.exe", link);
+                //Process.Start("explorer.exe",link);
                 Close();
             }
             catch (Exception ex) { }

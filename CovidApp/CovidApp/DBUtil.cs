@@ -103,8 +103,7 @@ namespace CovidApp
                 row[7] = Convert.ToString(reader.GetInt32(7));
                 row[8] = Convert.ToString(reader.GetInt32(8));
                 row[9] = Convert.ToString(reader.GetInt32(9));
-                row[10] = Convert.ToString(reader.GetInt32(10));
-                row[11] = Convert.ToString(reader.GetString(11));
+                row[10] = Convert.ToString(reader.GetString(10));
                 result.AddLast(row);
                 close();
                 return true;

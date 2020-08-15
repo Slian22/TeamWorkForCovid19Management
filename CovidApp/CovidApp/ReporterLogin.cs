@@ -39,7 +39,7 @@ namespace CovidApp
             else
             {
                 this.Hide();
-                Reportinformation R = new Reportinformation();
+                Reportinformation R = new Reportinformation(textBox1.Text);
                 R.ShowDialog(this);
                 this.Close();
                 this.Dispose();

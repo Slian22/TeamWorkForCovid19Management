@@ -32,11 +32,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -102,11 +100,9 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox8);
+            this.groupBox1.Controls.Add(this.textBox7);
             this.groupBox1.Controls.Add(this.label28);
             this.groupBox1.Controls.Add(this.label26);
-            this.groupBox1.Controls.Add(this.textBox7);
-            this.groupBox1.Controls.Add(this.label25);
             this.groupBox1.Controls.Add(this.label24);
             this.groupBox1.Controls.Add(this.label23);
             this.groupBox1.Controls.Add(this.textBox6);
@@ -145,19 +141,19 @@
             this.groupBox1.TabIndex = 29;
             this.groupBox1.TabStop = false;
             // 
-            // textBox8
+            // textBox7
             // 
-            this.textBox8.Location = new System.Drawing.Point(146, 465);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(177, 25);
-            this.textBox8.TabIndex = 42;
+            this.textBox7.Location = new System.Drawing.Point(146, 427);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(177, 25);
+            this.textBox7.TabIndex = 42;
             // 
             // label28
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label28.Location = new System.Drawing.Point(26, 470);
+            this.label28.Location = new System.Drawing.Point(26, 427);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(89, 20);
             this.label28.TabIndex = 41;
@@ -172,24 +168,6 @@
             this.label26.Size = new System.Drawing.Size(15, 15);
             this.label26.TabIndex = 37;
             this.label26.Text = "*";
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(146, 422);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(177, 25);
-            this.textBox7.TabIndex = 36;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label25.Location = new System.Drawing.Point(6, 427);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(129, 20);
-            this.label25.TabIndex = 35;
-            this.label25.Text = "今日新增人数";
             // 
             // label24
             // 
@@ -235,7 +213,7 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(129, 20);
             this.label22.TabIndex = 30;
-            this.label22.Text = "累计治愈人数";
+            this.label22.Text = "新增治愈人数";
             // 
             // label21
             // 
@@ -245,7 +223,7 @@
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(129, 20);
             this.label21.TabIndex = 29;
-            this.label21.Text = "累计死亡人数";
+            this.label21.Text = "新增死亡人数";
             // 
             // label20
             // 
@@ -293,7 +271,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(129, 20);
             this.label17.TabIndex = 24;
-            this.label17.Text = "现存疑似人数";
+            this.label17.Text = "新增疑似人数";
             // 
             // textBox2
             // 
@@ -382,7 +360,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(129, 20);
             this.label7.TabIndex = 13;
-            this.label7.Text = "现存确诊人数";
+            this.label7.Text = "新增确诊人数";
             // 
             // button2
             // 
@@ -423,6 +401,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(178, 25);
             this.dateTimePicker1.TabIndex = 8;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // textBox1
             // 
@@ -508,11 +487,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.TextBox textBox6;

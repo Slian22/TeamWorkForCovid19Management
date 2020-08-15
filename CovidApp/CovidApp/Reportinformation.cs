@@ -18,15 +18,24 @@ namespace CovidApp
 {
     public partial class Reportinformation : Form
     {
-        public Reportinformation()
+        public Reportinformation(string str)
         {
             InitializeComponent();
+            textBox1.Text = str;
+            if (str == null)
+                textBox1.Text = null;
+            else
+
+            {
+                string data = DateTime.Now.ToShortDateString().ToString();
+                textBox1.Text = str + data;
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Reportinformation R = new Reportinformation();
+            Reportinformation R = new Reportinformation(null);
             R.ShowDialog(this);
             this.Close();
             this.Dispose();
@@ -63,7 +72,7 @@ namespace CovidApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string[] paras = new string[12];
+            string[] paras = new string[11];
             int flag = 1;
             paras[0] = textBox1.Text;
             paras[1] = comboBox1.Text;
@@ -74,11 +83,10 @@ namespace CovidApp
             paras[6] = textBox4.Text;
             paras[7] = textBox5.Text;
             paras[8] = textBox6.Text;
-            paras[9] = textBox7.Text;
-            paras[10] = "0";
-            paras[11] = textBox8.Text;
+            paras[9] = "0";
+            paras[10] = textBox7.Text;
             string reminderMessage = "";
-            for (int i = 0; i < 12; i++)
+            for (int i = 0; i < 11; i++)
             {
                 if (paras[i] == "")
                 {
@@ -90,7 +98,7 @@ namespace CovidApp
             {
                 MessageBox.Show(reminderMessage);
             }
-            string sql = "insert into units values(@para0,@para1,@para2,@para3,@para4,@para5,@para6,@para7,@para8,@para9,@para10,@para11)";
+            string sql = "insert into units_dayli values(@para0,@para1,@para2,@para3,@para4,@para5,@para6,@para7,@para8,@para9,@para10)";
             int count = Reporter.update(sql, paras);
             MessageBox.Show("更新 " + count + " 条记录成功!");
             Reportinformation_Load(sender, e);
@@ -127,6 +135,11 @@ namespace CovidApp
             R.ShowDialog(this);
             this.Close();
             this.Dispose();
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
