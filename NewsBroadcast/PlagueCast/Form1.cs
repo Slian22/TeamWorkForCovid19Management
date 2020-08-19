@@ -244,7 +244,7 @@ namespace PlagueCast
 
             notificationQueue.Add(new FrmNewsDialog("欢迎使用 疫情播报桌面小部件", "数据来自丁香园（爬虫)，每8分钟更新一次。\r\n点击详情打开丁香园页面", Program.url));
             notificationQueue.Add(new FrmNewsDialog("提示：在标题栏左边图标右击有选项菜单","右击标题栏左边NEWS图标，可以打开选项菜单，可以设置通知，置顶，刷新以及退出。按住滚动字幕部分可以拖动", "https://github.com/Slian22"));
-            notificationQueue.Add(new FrmNewsDialog("提示：单击新闻列表项目打开详情","单击新闻列表中的一项可以查看标题，内容和原始链接。", "https://github.com/Slian22"));
+            notificationQueue.Add(new FrmNewsDialog("提示：单击新闻列表项目打开详情","单击新闻列表中的一项可以查看标题，内容和原始链接。点击此详情即可查看当前可视化项目", "http://localhost:63342/Visualization/COVID-19-Charts-master/public/index.html?_ijt=5nt9i9eta6nh2tr4gnluve0bg5"));
             raiseNotification();
         }
 
