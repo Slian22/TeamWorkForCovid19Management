@@ -1,0 +1,8 @@
+bin\Debug\SuperCalculator.exe
+bin\Debug\SuperCalculator.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SuperCalculator.Properties.Resources.resources
+obj\Debug\SuperCalculator.csproj.GenerateResource.Cache
+obj\Debug\SuperCalculator.exe
+obj\Debug\SuperCalculator.pdb
+obj\Debug\SuperCalculator.FormMain.resources

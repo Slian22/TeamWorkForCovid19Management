@@ -1,0 +1,3 @@
+C:\Users\TR\Desktop\个人作业\个人作业\实验5\BankEmployee\BankEmployee\bin\Debug\BankEmployee.exe.config
+C:\Users\TR\Desktop\个人作业\个人作业\实验5\BankEmployee\BankEmployee\obj\Debug\BankEmployee.exe
+C:\Users\TR\Desktop\个人作业\个人作业\实验5\BankEmployee\BankEmployee\obj\Debug\BankEmployee.pdb

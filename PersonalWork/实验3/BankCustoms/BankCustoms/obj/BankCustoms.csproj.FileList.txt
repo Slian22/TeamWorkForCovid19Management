@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BankCustoms.FormMain.resources
+obj\Debug\BankCustoms.Properties.Resources.resources
+obj\Debug\BankCustoms.csproj.GenerateResource.Cache
+bin\Debug\BankCustoms.exe
+bin\Debug\BankCustoms.pdb
+obj\Debug\BankCustoms.exe
+obj\Debug\BankCustoms.pdb

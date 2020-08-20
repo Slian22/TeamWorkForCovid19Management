@@ -1,9 +1,0 @@
-bin\Debug\MessageAwake.exe
-bin\Debug\MessageAwake.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\MessageAwake.FormMain.resources
-obj\Debug\MessageAwake.Properties.Resources.resources
-obj\Debug\MessageAwake.csproj.GenerateResource.Cache
-obj\Debug\MessageAwake.exe
-obj\Debug\MessageAwake.pdb
-bin\Debug\demo.ico
